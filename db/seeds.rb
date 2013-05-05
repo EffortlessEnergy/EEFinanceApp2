@@ -13,5 +13,5 @@ puts 'user: ' << user.name
 
 #Create a default user
 
-demoUser = User.create! :name => 'demo', :email => 'demo@goeffortless.com', :password => 'demo', :password_confirmation => 'demo'
+demoUser = User.create! :name => 'demo', :email => 'demo@goeffortless.com', :password => 'demoPassword', :password_confirmation => 'demoPassword'
 puts 'user: ' << demoUser.name
